@@ -97,7 +97,7 @@
 
 		var nextArrivalFB = moment().add(minutesAwayFB, "minutes");
 
-		var nextArrivalFormat = moment(nextArrivalFB, "hh:mm");
+		var nextArrivalFormat = moment(nextArrivalFB).format("hh:mm a");
 
 		// console.log("arrival time:" _moment(nextArrivalFB).format("hh:mm"))
 
