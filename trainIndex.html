@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/trainIndex.css">
+	<title>Train Schedule</title>
+</head>
+<body>
+	<div id="masthead">
+		<h1 id="logo">Train Schedule</h1>
+	</div>
+	<div id="schedule">
+		<div>
+<!-- 			<h3>Current Train Schedule</h3> -->
+		</div>
+		<table id="trainTable">
+			<caption id="tableTitle">Current Train Schedule</caption><br>
+		  <tr id="row">
+		    <th id="cell">Train Name</th>
+		    <th id="cell">Destination</th>
+		    <th id="cell">Frequency (min)</th>
+		    <th id="cell">Next Arrival</th>
+		    <th id="cell">Minutes Away</th>
+		    <th id="cell">First Scheduled Train</th>
+		  </tr>
+		  <tr>
+		    <td></td>
+		    <td></td>
+		  </tr>
+		</table>
+	</div>
+	<div id="addTrain">
+		<h3>Add Train</h3>
+		<form>
+			Train Name:
+			<input type="text" id="destination" name="Destination"><br><br>
+			Destination:
+			<input type="text" id="trainName" name="Train Name"><br><br>
+			First Train Time (HH:mm - military time):
+			<input type="text" id="firstTrainTime" name="First Train Time"><br><br>
+			Frequency (min):
+			<input type="text" id="frequency" name="Frequency"><br><br>
+			<input id="trainSubmit" type="submit">
+		</form>
+	</div>
+<!-- 	// <script type="text/javascript" href="/assets/train.js"></script>   -->
+
+<!-- 			COMMENTED OUT SCRIPT, PUT IT ON OTHER DOC. -->
+
+	<script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+	<script type="text/javascript" src="assets/train.js"></script>
+
+
+
+
+
+</body>
+</html>

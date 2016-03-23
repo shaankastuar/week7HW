@@ -1,0 +1,41 @@
+#masthead{
+	background: lightgreen;
+	border: solid brown 4px;
+	height: 20%;
+	margin-bottom: 10px;
+}
+
+h1{ font-size: large;
+	text-align: center;
+}
+
+#schedule{
+	border: solid brown 4px;
+	margin-bottom: 10px;
+	background: lightblue;
+
+}
+
+#addTrain{
+	background: magenta;
+
+	border: solid brown 4px;
+	margin-bottom: 10px;
+}
+
+#row #cell {
+	border: solid 1px;
+	padding: 2px;
+	padding-bottom: 0px;
+}
+
+td {
+
+	border: solid 1px;
+	padding: 2px;
+}
+
+#trainTable{
+	text-align: center;
+	position: center;
+}
